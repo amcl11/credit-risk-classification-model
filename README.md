@@ -44,14 +44,14 @@ In our dataset we had a total of:
 Overall the model has a general accuracy of 99%, but given the imbalanced classes within the dataset (75,036 healthy loans vs only 2,500 high-risk loans), lets looks at our specific categories for a deeper understanding of the model...
 
 
-`**Predicting a Healthy Loan:**`
+**`Predicting a Healthy Loan:`**
 
 The model predicts the 'healthy loan' category with a precision of 100%, meaning that every loan that the model predicted as 'healthy' was indeed a healthy loan. 
 
 The model also had a success rate of 100% in predicting all the *actual* healthy loans in the test data as indicated by the recall score of 1.0. So the model correctly identified all healthy loans from our test data. 
 
 
-`**Predicting a High-Risk Loan:**`
+**`Predicting a High-Risk Loan:`**
 
 Given the context of the data, the real metric we are interested in is predicting credit risk, so this is where the analysis needs to be thorough. In the context of lending, incorrectly classifying a high-risk loan as healthy could result in significant financial losses for the institution. Hence, this category warrants detailed scrutiny.
 
