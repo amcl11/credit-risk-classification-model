@@ -55,9 +55,9 @@ The model also had a success rate of 100% in predicting all the *actual* healthy
 
 Given the context of the data, the real metric we are interested in is predicting credit risk, so this is where the analysis needs to be thorough. In the context of lending, incorrectly classifying a high-risk loan as healthy could result in significant financial losses for the institution. Hence, this category warrants detailed scrutiny.
 
-The model predicts the 'high-risk loan' category with a precision of 87%, meaning that 87% of the loans that the model predicted as high-risk, were in fact high-risk. 
+The model predicts the 'high-risk loan' category with a precision of `87%`, meaning that 87% of the loans that the model predicted as high-risk, were in fact high-risk. 
 
-The model correctly predicted the *actual* high-risk loans with a success rate of 89% (as indicated by the recall score of 0.89). This is our most important metric for this case. 
+The model correctly predicted the *actual* high-risk loans with a success rate of `89%` (as indicated by the recall score of 0.89). This is our most important metric for this case. 
 
 <span style="color:red">**This means that the model missed 11% of high-risk loans. From our test data, this equates to *67 missed high-risk loans out of a total 625 high-risk loans* **</span>
 
