@@ -59,7 +59,9 @@ The model predicts the 'high-risk loan' category with a precision of `87%`, mean
 
 The model correctly predicted the *actual* high-risk loans with a success rate of `89%` (as indicated by the recall score of 0.89). This is our most important metric for this case. 
 
-### This means that the model missed 11% of high-risk loans. From our test data, this equates to <em>67 missed high-risk loans out of a total 625 high-risk loans
+> This means that the model missed 11% of high-risk loans. 
+
+> From our test data, this equates to 67 missed high-risk loans out of a total 625 high-risk loans
 
 
 An F1-score of 88% for the high-risk loan category means that the model has a balanced performance in terms of both false positives and false negatives for this category.
