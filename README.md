@@ -31,13 +31,14 @@ In our dataset we had a total of:
 
 ## Results
 **Model Accuracy, Precision, Recall, and F1 scores:**
+
     - Overall model accuracy = 99%
     - Healthy Loan precision score = 100%
     - Healthy Loan recall score = 100%
     - Healthy Loan f1-score = 100%
-    - `High-Risk Loan precision score = 87%`
-    - `High-Risk Loan recall score = 89%`
-    - `High-Risk Loan f1-score score = 88%` 
+    - High-Risk Loan precision score = 87%
+    - High-Risk Loan recall score = 89%
+    - High-Risk Loan f1-score score = 88%
 
 
 Overall the model has a general accuracy of 99%, but given the imbalanced classes within the dataset (75,036 healthy loans vs only 2,500 high-risk loans), lets looks at our specific categories for a deeper understanding of the model...
