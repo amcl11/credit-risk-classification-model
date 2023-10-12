@@ -71,3 +71,5 @@ An F1-score of 88% for the high-risk loan category means that the model has a ba
 ## Conclusion/Recommendation:
 
 Given the recall of `89%` for high-risk loans, this model seems effective in identifying a majority of potential credit risks and as such, I would recommend the model.  However, as with all models, continual monitoring and adjustment might be needed to ensure its performance over time
+
+
