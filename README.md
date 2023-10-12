@@ -17,16 +17,16 @@ The lending data used for this analysis includes:
 Ultimately we need a model that can accuratly predict which loans are 'high-risk'. 
 
 In our dataset we had a total of:
-- *75036 Healthy Loans*
-- *2500 High-Risk Loans*
+- *75,036 Healthy Loans*
+- *2,500 High-Risk Loans*
 
 ## Overview of the ML process
 - Imported CSV file
 - Set 'loan_status' as our dependent variable as *'y'*
 - Set remaining columns as features represented as *'X'*
-- I split the dataset into training and testing data, and used stratify=y to       ensure a representative sample of each class in both the training and test datasets.
+- I split the dataset into training and testing data, and used stratify=y to ensure a representative sample of each class in both the training and test datasets.
 - I then implemented a Logistic Regression model from the sklearn module. 
-- Using confusion matrix and a classificartion report i could then evaluate the effectiveness of the model. 
+- Using confusion matrix and a classification report I could then evaluate the effectiveness of the model. 
 
 
 ## Results
@@ -59,7 +59,7 @@ The model predicts the 'high-risk loan' category with a precision of `87%`, mean
 
 The model correctly predicted the *actual* high-risk loans with a success rate of `89%` (as indicated by the recall score of 0.89). This is our most important metric for this case. 
 
-***This means that the model missed 11% of high-risk loans.*** 
+`***This means that the model missed 11% of high-risk loans.***`
 
 ***From our test data, this equates to 67 missed high-risk loans out of a total 625 high-risk loans***
 
