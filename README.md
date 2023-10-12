@@ -1,8 +1,8 @@
-# 💳 Credit Risk - Supervised ML Model Report 💹
+# 💳 Credit Risk - Supervised ML Model Report
 
 ---
 
-## 📊 Overview of the Analysis
+## 📊 Overview of the Analysis:
 
 The purpose of this analysis is to create a model that predicts if a loan can be correctly categorised as 'healthy' or 'high-risk'. The focus being on the 'high-risk' category in particular. The high-risk category would be the key metric in this context as it is the most beneficial piece of information for the lending organisation. 
 
@@ -22,7 +22,7 @@ In our dataset we had a total of:
 - *75,036 Healthy Loans*
 - *2,500 High-Risk Loans*
 
-## Overview of the ML process
+## Overview of the ML process:
 - Imported CSV file
 - Set 'loan_status' as our dependent variable as *'y'*
 - Set remaining columns as features represented as *'X'*
@@ -31,7 +31,7 @@ In our dataset we had a total of:
 - Using confusion matrix and a classification report I could then evaluate the effectiveness of the model. 
 
 
-## Results
+## Results:
 **Model Accuracy, Precision, Recall, and F1 scores:**
 
     - Overall model accuracy = 99%
