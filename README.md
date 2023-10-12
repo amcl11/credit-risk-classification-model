@@ -1,6 +1,8 @@
-# Credit Risk - Supervised ML Model Report 
+# 💳 Credit Risk - Supervised ML Model Report 💹
 
-## Overview of the Analysis
+---
+
+## 📊 Overview of the Analysis
 
 The purpose of this analysis is to create a model that predicts if a loan can be correctly categorised as 'healthy' or 'high-risk'. The focus being on the 'high-risk' category in particular. The high-risk category would be the key metric in this context as it is the most beneficial piece of information for the lending organisation. 
 
