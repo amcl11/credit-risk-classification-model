@@ -26,9 +26,9 @@ In our dataset we had a total of:
 - Imported CSV file
 - Set 'loan_status' as our dependent variable as *'y'*
 - Set remaining columns as features represented as *'X'*
-- I split the dataset into training and testing data, and used stratify=y to ensure a representative sample of each class in both the training and test datasets.
-- I then implemented a Logistic Regression model from the sklearn module. 
-- Using confusion matrix and a classification report I could then evaluate the effectiveness of the model. 
+- Split the dataset into training and testing data, and used stratify=y to ensure a representative sample of each class in both the training and test datasets.
+- Implemented a Logistic Regression model from the sklearn module. 
+- Using confusion matrix and a classification report to then evaluate the effectiveness of the model. 
 
 
 ## Results:
